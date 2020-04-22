@@ -1,0 +1,263 @@
+@font-face{
+    font-family: compact;
+    src: url(../font/compact.ttf);
+}
+@font-face{
+    font-family: compact-italic;
+    src: url(../font/compact-italic.ttf);
+}
+html {
+    height: 100%;
+  }
+body{
+     
+    margin: 0;
+    background: url(../img/fon.jpg) repeat;
+}
+h1{
+    font-family: Compact;
+    font-style: italic;
+}
+#main{
+    background: url(../img/header.png);
+}
+#main-header{
+    margin-top: 20px;
+}
+#main-container{
+    padding-top: 10px;
+    max-width: 1140px;
+    max-height: 200px;
+    margin: 0 auto;
+}
+#main-header-name{
+    display: flex;
+    justify-content: center;
+}
+#main-header-name.name{
+    margin-top: 0;
+    margin-left: 97px;
+    font-size: 48px;
+    font-family: Compact;
+    font-style: italic;
+    height: auto;
+
+}
+#main-header-name img{
+    margin-left: 40px;
+}
+#main-header-menu{
+    text-align: center;
+}
+#main-header-menu a.menu-item{
+
+    font-size: 36px;
+    font-family: Compact;
+    font-style: italic;
+    width: 164px;
+    margin: 0 30px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+#main-header-menu a.menu-item:hover{
+    border-bottom: 2px solid;
+}
+#block-1{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#main-content-title{
+text-align: center;
+margin-top: 30px;
+}
+#main-content-uslugi-up{
+    display: flex;
+    align-self: center;
+
+}
+#main-content-uslugi-up a.menu-item{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 22px;
+    font-family: Compact;
+    font-style: italic;
+    width: 164px;
+    height: auto;
+    text-decoration: none;
+}
+#content-up-1{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-up-1 img:hover{
+    background: url(/img/engine_1.png);
+    
+}
+#content-up-2{
+    margin: 0 30px;
+    max-width: 164px;
+    
+}
+#content-up-2 img:hover{
+    background: url(/img/suspension_1.png);
+}
+#content-up-3{
+    margin: 0 30px;
+    max-width: 164px;
+    
+}
+#content-up-3 img:hover{
+    background: url(/img/break_1.png);
+}
+#content-up-4{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-up-4 img:hover{
+    background: url(/img/belt_1.png);
+}
+#content-up-5{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-up-5 img:hover{
+    background: url(/img/gearshift_1.png);
+}
+#main-content-uslugi-down{
+    padding-top: 15px;
+    max-width: 1140px;
+    display: flex;
+    text-align: center;
+} 
+  
+#main-content-uslugi-down a.menu-item{
+    display: inline-block;
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 22px;
+    font-family: Compact;
+    font-style: italic;
+    width: 164px;
+    height: auto;
+    text-decoration: none;
+}
+#content-down-1{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-down-1 img:hover{
+    background: url(/img/fan_1.png);
+}
+#content-down-2{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-down-2 img:hover{
+    background: url(/img/exhaust_1.png);
+}
+#content-down-3{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-down-3 img:hover{
+    background: url(/img/filter_1.png);
+}
+#content-down-4{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-down-4 img:hover{
+    background: url(/img/turbo_1.png);
+}
+#content-down-5{
+    margin: 0 30px;
+    max-width: 164px;
+}
+#content-down-5 img:hover{
+    background: url(/img/spark_1.png);
+}
+#block-2{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#main-content-text-title{
+    text-align: center;
+    margin-top: 30px;
+    font-family: Compact;
+    font-style: italic;
+}
+#main-content-text-block{
+    padding-top: 30px;
+    max-width: 1140px;
+    display: inline-block;
+
+}
+#content-text-1 span{
+    width: 560px;
+    height: 300px;
+    text-align: left;
+    float: left;
+    font-size: 24px;
+    margin: 5px 30px;
+   
+}
+#content-text-1 img{
+   float: right;
+   margin: 5px 30px;
+}
+#content-text-1 span{
+    height: 300px;
+    width: 560px;
+    text-align: right;
+    float: left;
+    font-size: 24px;
+    margin: 5px 30px;
+   
+}
+#content-text-2 img{
+   float: left;
+   margin: 5px 30px;
+}
+#content-text-2 span{
+    height: 300px;
+    width: 560px;
+    text-align: left;
+    float: left;
+    font-size: 24px;
+    margin: 5px 30px;
+   
+}
+#content-text-3 img{
+   float: right;
+   margin: 5px 30px;
+}
+#content-text-3 span{
+    height: 300px;
+    width: 560px;
+    text-align: left;
+    float: left;
+    font-size: 24px;
+    margin: 5px 30px;
+   
+}
+#content-text-4 img{
+   float: left;
+   margin: 5px 30px;
+}
+#content-text-4 span{
+    height: 300px;
+    width: 560px;
+    text-align: left;
+    float: right;
+    font-size: 24px;
+    margin: 5px 30px;
+   
+}
+#main-footer{
+    display: block;
+    width: 100%;
+    margin: 0;
+}   
