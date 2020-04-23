@@ -62,12 +62,12 @@ h1{
 #main-header-menu a.menu-item:hover{
     border-bottom: 2px solid;
 }
-#block-1{
+#services{
     margin: 0;
     display: flex;
     justify-content: center;
 }
-#main-content-title{
+#main-content .main-content-title{
 text-align: center;
 margin-top: 30px;
 }
@@ -178,86 +178,33 @@ margin-top: 30px;
 #content-down-5 img:hover{
     background: url(/img/spark_1.png);
 }
-#block-2{
+#advantages{
     margin: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
-#main-content-text-title{
+#advantages .advantages-title{
     text-align: center;
-    margin-top: 30px;
-    font-family: Compact;
-    font-style: italic;
-}
-#main-content-text-block{
-    padding-top: 30px;
-    max-width: 1140px;
-    display: inline-block;
-
-}
-#content-text-1 span{
-    width: 560px;
-    height: 300px;
-    text-align: left;
-    float: left;
-    font-size: 24px;
-    margin: 5px 30px;
-   
-}
-#content-text-1 img{
-   float: right;
-   margin: 5px 30px;
-}
-#content-text-1 span{
-    height: 300px;
-    width: 560px;
-    text-align: right;
-    float: left;
-    font-size: 24px;
-    margin: 5px 30px;
-   
-}
-#content-text-2 img{
-   float: left;
-   margin: 5px 30px;
-}
-#content-text-2 span{
-    height: 300px;
-    width: 560px;
-    text-align: left;
-    float: left;
-    font-size: 24px;
-    margin: 5px 30px;
-   
-}
-#content-text-3 img{
-   float: right;
-   margin: 5px 30px;
-}
-#content-text-3 span{
-    height: 300px;
-    width: 560px;
-    text-align: left;
-    float: left;
-    font-size: 24px;
-    margin: 5px 30px;
-   
-}
-#content-text-4 img{
-   float: left;
-   margin: 5px 30px;
-}
-#content-text-4 span{
-    height: 300px;
-    width: 560px;
-    text-align: left;
-    float: right;
-    font-size: 24px;
-    margin: 5px 30px;
-   
-}
-#main-footer{
-    display: block;
+    margin: 30px 0px;
     width: 100%;
-    margin: 0;
-}   
+}
+#advantages-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1140px;
+}
+#advantages-text .advantages-text-area{
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+#advantages-text .advantages-text-area span{
+    width: 560px;
+    margin: 0px 30px;
+    vertical-align: middle;
+}
+#advantages-text .advantages-img{
+    width: 360px;
+}
