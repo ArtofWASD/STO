@@ -18,6 +18,10 @@ h1{
     font-family: Compact;
     font-style: italic;
 }
+h3{
+    font-family: Compact;
+    font-style: italic;
+}
 #main{
     background: url(../img/header.png);
 }
@@ -227,24 +231,28 @@ margin-top: 30px;
     margin: 30px 0px;
     width: 100%;
 }
-#form-area .form .form-control{  
+#form-area .form .form-control input{  
     display: flex;
-    align-items: center;
-    width: 360px;
-    height: 30px;
-    
+    align-items: center;    
 }
+
 #form-area .form .form-control-coment{
     width: 750px;
     height: 130px;
 }
 .form h3{
+    margin: 15px 0px;
     font-size: 22px;
-    font-family: Compact;
-    font-style: italic;
     text-align: center;
+}
+#form-area .form-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }   
 #form-area .form-button button{
+    font-family: Compact;
+    font-style: italic;
     margin-top: 20px;
     width: 165px;
     height: 40px;
@@ -262,7 +270,6 @@ margin-top: 30px;
 }
 #map-area{
     width: 1140px;
-
 }
 #footer{
     margin-top: 30px;
