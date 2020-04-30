@@ -126,9 +126,7 @@ textarea{
     text-align: center;
 }
 .button-submit button{
-    width: 200px;
-    height: 50px;
-    border-radius: 10px;
+    margin: 15px 0;
 }
 
 #footer{
