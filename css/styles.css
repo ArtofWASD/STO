@@ -41,7 +41,7 @@ textarea{
     background: url(../img/header.png);
 }
 .company-name{
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
 }
 
@@ -53,11 +53,17 @@ textarea{
     font-style: italic;
     font-size: 36px;
 }
+#content.content{
+    height: 100%;
+}
+.content{
+    height: 100vh;
+}
 .service{
-    margin: 30px 0;
+    margin: 15px 0;
 }
 .service-title{
-    margin: 30px;
+    margin-top: 30px;
 }
 .service__menu{
     text-align: center;
@@ -125,36 +131,19 @@ textarea{
     border-radius: 10px;
 }
 
-
-#map{
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-#map .map-title{
-    text-align: center;
-    margin-top: 30px;
-    width: 100%;
-}
-#map-area{
-    width: 1140px;
-
-}
-
 #footer{
     background: url(../img/footer.png);
     margin-top: 30px;
     width: 100%;
     height: 200px;
 }
-#footer .footer-elements{
-    display: flex;
-    justify-content: space-between;
+.elements img, h3{
+    margin-top: 30px;
 }
-.footer-social-media{
-    margin: 50px 30px 0 0 ;
+.carousel{
+    margin-top: 30px;
+    
 }
-.footer-text{
-    margin: 50px 0 0 30px;
+.carousel img{
+    border-radius: 5px;
 }
