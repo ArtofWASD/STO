@@ -37,7 +37,6 @@ textarea{
     resize: none;
 }
 .header {
-    background: url(../img/Header.png) no-repeat;
     background-size: 100%;
     background-color: rgba(88, 150, 244, 0.3);
 }
@@ -64,12 +63,7 @@ textarea{
 .carousel img{
     border-radius: 5px;
 }
-#content.content{
-    height: 100%;
-}
-.content{
-    height: 100vh;
-}
+
 .service{
     margin: 15px 0;
 }
@@ -139,11 +133,16 @@ textarea{
 .button-submit button{
     margin: 15px 0;
 }
-
+#about {
+    height: 80vh;
+}
+#news{
+    height: 100vh;
+}
 #footer{
     background-color: rgba(88, 150, 244, 0.3);
     margin-top: 30px;
-    height: 10vh;
+    height: 15vh;
 }
 .elements h3{
     margin-top: 10px;  
@@ -181,7 +180,9 @@ textarea{
 }
 /*Контент*/
 @media (max-width: 575.98px) {
-    
+    .content h1{font-size: 30px; margin-top: 10px;}
+    .cont-header h3{ font-size: 18px; margin: 10px 0;}
+    .cont-text { text-align: center;}
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -201,23 +202,27 @@ textarea{
 }
 /*Footer*/
 @media (max-width: 575.98px) {
+    #footer{height: 7vh;}
     .social{ padding: 0;}
     .social img{ width: 25px; float: right; margin: 10px 3px 0 3px;}
     .contacts h3{ font-size: 18px;}
+    
 }    
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .social{ padding: 0;}
     .social img{ width: 40px; float: right; margin: 10px 3px 0 3px;}
+    .contacts h3{ font-size: 24px;}
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .social img{ width: 40px; float: right; margin: 10px 3px 0 3px;}
-    
+    .contacts h3{ font-size: 24px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    .social img{float: right; margin: 10px 3px 0 3px;}
+    .social img{ width: 42px; float: right; margin: 10px 3px 0 3px;}
+    .contacts h3{ font-size: 28px;}
 }   
 
 @media (min-width: 1200px) {
