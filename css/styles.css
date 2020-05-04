@@ -9,8 +9,7 @@
 html {
     height: 100%;
   }
-body{
-     
+body{  
     margin: 0;
     background: url(../img/fon.jpg) repeat;
 }
@@ -37,21 +36,33 @@ textarea{
     height: 200px;
     resize: none;
 }
-.header{
-    background: url(../img/header.png);
+.header {
+    background: url(../img/Header.png) no-repeat;
+    background-size: 100%;
+    background-color: rgba(88, 150, 244, 0.3);
 }
 .company-name{
     margin-top: 20px;
     text-align: center;
 }
-
+.logo img{
+    float: right;
+}
 .menu__item{
     margin: 0 40px;
 }
 .menu__item a{
+
     font-family: Compact;
     font-style: italic;
     font-size: 36px;
+}
+.carousel{
+    margin-top: 30px;
+    
+}
+.carousel img{
+    border-radius: 5px;
 }
 #content.content{
     height: 100%;
@@ -130,18 +141,87 @@ textarea{
 }
 
 #footer{
-    background: url(../img/footer.png);
+    background-color: rgba(88, 150, 244, 0.3);
     margin-top: 30px;
-    width: 100%;
-    height: 200px;
+    height: 10vh;
 }
-.elements img, h3{
-    margin-top: 30px;
+.elements h3{
+    margin-top: 10px;  
 }
-.carousel{
-    margin-top: 30px;
+
+/*медиа запросы*/
+/*header*/
+@media (max-width: 575.98px) {
+    .company-name h1{font-size: 24px;}
+    .menu a{font-size: 20px; }
+    .menu__item{margin: 0 10px;}
+    .logo img{width: 130px; margin: 20px 0 0 0;}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .company-name h1{font-size: 32px;}
+    .menu a{font-size: 32px; }
+    .menu__item{margin: 0 25px;}
+    .logo img{width: 190px; margin: 10px; padding-right: 20px; }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .company-name h1{font-size: 38px;}
+    .logo img{width: 200px;}
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .company-name h1{font-size: 44px;}
     
 }
-.carousel img{
-    border-radius: 5px;
+
+@media (min-width: 1200px) {
+    
+
 }
+/*Контент*/
+@media (max-width: 575.98px) {
+    
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+
+}
+/*Footer*/
+@media (max-width: 575.98px) {
+    .social{ padding: 0;}
+    .social img{ width: 25px; float: right; margin: 10px 3px 0 3px;}
+    .contacts h3{ font-size: 18px;}
+}    
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .social{ padding: 0;}
+    .social img{ width: 40px; float: right; margin: 10px 3px 0 3px;}
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .social img{ width: 40px; float: right; margin: 10px 3px 0 3px;}
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .social img{float: right; margin: 10px 3px 0 3px;}
+}   
+
+@media (min-width: 1200px) {
+    .social img{float: right; margin: 10px 3px 0 3px;}
+
+}
+
