@@ -38,7 +38,7 @@ textarea{
 }
 .header {
     background-size: 100%;
-    background-color: rgba(88, 150, 244, 0.3);
+    background-color: rgba(88, 150, 244, 0.9);
 }
 .company-name{
     margin-top: 20px;
@@ -51,10 +51,13 @@ textarea{
     margin: 0 40px;
 }
 .menu__item a{
-
+    color: white;
     font-family: Compact;
     font-style: italic;
     font-size: 36px;
+}
+.content .row{
+    margin: 0;
 }
 .carousel{
     margin-top: 30px;
@@ -133,19 +136,24 @@ textarea{
 .button-submit button{
     margin: 15px 0;
 }
-#about {
-    height: 80vh;
+#about p{
+    text-align: justify;
+}
+#about img{
+    width: 100%;
 }
 #news{
     height: 100vh;
 }
+#contacts{
+    height: 100%;
+}
 #footer{
-    background-color: rgba(88, 150, 244, 0.3);
+    background-color: rgba(88, 150, 244, 0.9);
     margin-top: 30px;
-    height: 15vh;
 }
 .elements h3{
-    margin-top: 10px;  
+    margin-top: 10px; 
 }
 
 /*медиа запросы*/
@@ -180,25 +188,44 @@ textarea{
 }
 /*Контент*/
 @media (max-width: 575.98px) {
+    h3{font-size: 16px;}
     .content h1{font-size: 30px; margin-top: 10px;}
     .cont-header h3{ font-size: 18px; margin: 10px 0;}
     .cont-text { text-align: center;}
+    .service__menu {margin: 0;}
+    .service__menu img{width: 20px; height: 20px;}
+    .service__menu img:hover{width: 20px; height: 20px; }
+    .service__menu h3{font-size: 12px;}
+    .form textarea{width: 100%;}
+    .form input{width: 100%;}
+    .row iframe{height: 200px;}
+
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
-    
+    .service__menu h3{font-size: 20px;}
+    .advantages h3{font-size: 24px; text-align: justify;}
+    .form textarea{width: 100%;}
+    .form input{width: 100%;}
+    .row iframe{height: 250px;}
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
+    .service__menu {margin: 0 10px;}
+    .service__menu img{width: 50px; height: 50px;}
+    .service__menu img:hover{max-width: 50px!important; height: 50px!important;}
+    .service__menu h3{font-size: 20px;}
+    .advantages h3{font-size: 26px; text-align: justify;}
+    .form textarea{width: 100%;}
+    .form input{width: 100%;}
+    .row iframe{height: 300px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
-    
+    .advantages h3{font-size: 26px; text-align: justify;}
 }
 
 @media (min-width: 1200px) {
-    
-
+    .advantages h3{font-size: 28px; text-align: justify;}
 }
 /*Footer*/
 @media (max-width: 575.98px) {
@@ -206,18 +233,22 @@ textarea{
     .social{ padding: 0;}
     .social img{ width: 25px; float: right; margin: 10px 3px 0 3px;}
     .contacts h3{ font-size: 18px;}
+    #footer {height: 110px;}
     
 }    
 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .social{ padding: 0;}
-    .social img{ width: 40px; float: right; margin: 10px 3px 0 3px;}
+    .social img{ width: 35px; float: right; margin: 10px 3px 0 3px;}
     .contacts h3{ font-size: 24px;}
+    #footer {height: 130px;}
 }
 
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-    .social img{ width: 40px; float: right; margin: 10px 3px 0 3px;}
+    .social img{ width: 30px; float: right; margin: 10px 3px 0 3px;}
     .contacts h3{ font-size: 24px;}
+    #footer {height: 130px;}
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -227,6 +258,6 @@ textarea{
 
 @media (min-width: 1200px) {
     .social img{float: right; margin: 10px 3px 0 3px;}
-
+    #footer {height: 150px;}
 }
 
